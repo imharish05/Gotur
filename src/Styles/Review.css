@@ -1,0 +1,24 @@
+.Reviews{
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.Reviews{
+    width: 100%;
+    min-height: 90vh;
+    overflow: hidden;
+}
+.Reviews #testimonialCarousel{
+    background-color: white;
+    border-radius: 20px;
+}
+.Reviews #testimonialCarousel img{
+    width: 100px;
+    border-radius: 50%;
+}
+.Reviews #testimonialCarousel .carousel-indicators button{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+}

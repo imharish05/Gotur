@@ -1,0 +1,82 @@
+.Features{
+    width: 100%;
+}
+.Features .parallex{
+    background: url(../assets/parallex.jpg);
+    background-position: fixed;
+}
+
+.Features .parallex .h3{
+    color: white;
+    font-weight: 700;
+}
+.Features .parallex button{
+    color: white;
+    font-weight: 700;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #4f4f8e;
+    border: white;
+    transition: all 1s ease;
+}
+.Features .parallex button:hover{
+    color: black;
+    background-color: transparent;
+    border: 1px solid #4f4f8e;
+}
+
+.Features .parallex button:hover a{
+    color: #4f4f8e;
+}
+.Features .parallex button a{
+    color: white;
+    text-decoration: none;
+}
+
+.Features .grow .para{
+    font-size: larger;
+}
+
+
+.Features .solutions{
+    width: 100%;
+}
+.Features .solutions svg{
+    height: 2em;
+    width: 2em;
+    color: #8d8ca9;
+}
+.Features .box svg{
+transition: 0.5s ease;
+}
+.Features .box:hover svg{
+    transform: scale(1.2);
+    color: orangered;
+}
+
+.Features img{
+    transition: 1s ease;
+}
+.Features img:hover{
+    transform: scale(1.1);
+}
+
+.Features .dashboard1{
+    width: 80%;
+
+}
+.Features .dashboard2{
+    width: 80%;
+
+}
+
+@media screen and (max-width:300px) {
+    .Features .dashboard1{
+    width: 100%;
+
+}
+.Features .dashboard2{
+    width: 100%;
+
+}
+
+}

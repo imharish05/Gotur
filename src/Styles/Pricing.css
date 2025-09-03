@@ -1,0 +1,48 @@
+.Pricing{
+    /* border: 2px solid red; */
+    width: 100%;
+    min-height: 90vh;
+    background-color: #4f4e90;
+    overflow: hidden;
+}
+.Pricing .pricing1{
+    position: relative;
+    background-color: #ffffff;
+}
+.Pricing .pricing2{
+    position: relative;
+    background-color: #ffffff;
+}
+
+.Pricing .pricing1 .h4,
+.Pricing .pricing2 .h4{
+    color: #ff4900;
+}
+.Pricing .pricing1 button,
+.Pricing .pricing2 button{
+    border: none;
+    background-color: #ff4900;
+    border-radius: 0px 0px 20px 20px;
+}
+.Pricing .pricing1 button a,
+.Pricing .pricing2 button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.Pricing .pricing2 .block{
+    width: 100%;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    background-color: black;
+   color: #ffffff;
+}
+
+
+@media screen and (max-width:300px){
+    .Pricing{
+        height: auto;
+    }
+}

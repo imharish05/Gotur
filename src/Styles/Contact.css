@@ -1,0 +1,42 @@
+.Contact{
+    width: 100%;
+    height: 90vh;
+}
+.Contact .contactMap{
+    width: 80%;
+    height: 100%;
+}
+.Contact .contactMap .inputBlock{
+    width: 80%;
+    height: auto;
+}
+.Contact .contactMap iframe{
+    width: 100%;
+    height: 100%;
+}
+.Contact .contactMap input{
+    border: 1px solid grey ;
+    border-radius: 0px 0px 20px 20px;
+}
+.Contact .contactMap textarea{
+    border-radius: 0px 0px 20px 20px;
+}
+.Contact .contactMap button{
+    border-radius: 0px 0px 20px 20px;
+    background-color: #4f4f8e;
+    border: none;
+}
+.Contact .contactMap button a{
+    text-decoration: none;
+    color: white;
+}
+.Contact .contactMap button svg{
+    margin-left: 10px;
+}
+
+
+@media screen and (max-width:300px) {
+    .Contact{
+        height: auto;
+    }    
+}

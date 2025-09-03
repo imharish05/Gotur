@@ -1,0 +1,24 @@
+.Questions{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.Questions .wrapper{
+    height: 100%;
+}
+.Questions .faqWrapper{
+    width: 80% !important;
+    height: 50%;
+}
+
+.Questions .wrapper .honesty{
+    background-color: #4f4e90;
+    border: 1px solid #4f4e90;
+}
+
+@media screen and (max-width:576px){
+    .Questions{
+        height: auto;
+    }
+    
+}
